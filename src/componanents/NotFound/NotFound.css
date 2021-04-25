@@ -1,0 +1,14 @@
+  
+.not-found-page{
+    background-image: url(../../bannerbackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 77px);
+   
+}
+.not-found-page .container{
+    transform: translateY(-77px);
+}
+.not-found-page h1{
+    font-size: 5em;
+}

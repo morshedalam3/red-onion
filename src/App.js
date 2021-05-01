@@ -1,8 +1,6 @@
 import React,{useState, useEffect} from 'react';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import './App.css';
-
-
 import Header from './componanents/Header/Header';
 import Banner from './componanents/Banner/Banner';
 import Foods from './componanents/Foods/Foods';
@@ -86,7 +84,7 @@ function App() {
       <Router>
         <div className="main">
           <Switch>
-            <Route path="/home">
+            <Route exact path="/">
                 <Header cart={cart}/>
                 <Banner/>
                 <Foods cart={cart}></Foods>

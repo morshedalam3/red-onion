@@ -41,7 +41,7 @@ const Foods = (props) => {
                 </nav>
 
                 <div className="row my-5">
-                    <Preloader  visibility={preloaderVisibility}/>
+                    {/* <Preloader  visibility={preloaderVisibility}/> */}
                     {
                         selectedFoods.map(food => <FoodItem key={food.id}  food={food} />)
                     }

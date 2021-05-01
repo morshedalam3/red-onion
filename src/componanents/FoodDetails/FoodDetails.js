@@ -42,7 +42,7 @@ const FoodDetails = (props) => {
     return (
 
         <div className="food-details my-5 pt-5 container">
-            <Preloader visibility={preloaderVisibility}/>
+            {/* <Preloader visibility={preloaderVisibility}/> */}
             {
             currentFood.name &&
             

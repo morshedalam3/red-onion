@@ -32,7 +32,7 @@ function Features(props) {
                             </div>
                         </div>
                     </div>
-                    <Preloader visibility={preloaderVisibility}/>
+                    {/* <Preloader visibility={preloaderVisibility}/> */}
 
                     {
                         features.map( feature => <SingleFeature key={feature.id} feature={feature}/>)
